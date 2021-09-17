@@ -1,0 +1,226 @@
+.primary {
+  background-color: #036b52;
+  color: #f2fffc;
+}
+
+.secondary {
+  background-color: #2fc18c;
+  color: #001813;
+}
+
+.ternary {
+  background-color: #421981;
+  color: #f2fffc;
+}
+
+.quaternary {
+  background-color: #056cf9;
+  color: #f2fffc;
+}
+
+.dark {
+  color: #001813;
+}
+
+.light {
+  color: #f2fffc;
+}
+
+.light-background {
+  background-color: #f2fffc;
+  color: #001813;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em 0;
+}
+
+.rightHeader button {
+  align-self: flex-end;
+  background-color: #2c72d4;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  height: 100%;
+  padding-right: 5%;
+  width: 25%;
+}
+
+.form-login {
+  align-items: center;
+  background-color: #eaf1ef;
+  border: 1px solid #b1c2be;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-evenly;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.form-login > label > input {
+  border: 1px solid #001813;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  margin: 0.5em 0 0;
+  padding: 0.5em 0.2em;
+  width: 100%;
+}
+
+.form-login > button {
+  border: 4px solid #036b52;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.form-login > button:hover {
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.form-login > button:disabled {
+  background-color: #eaf1ef;
+  border-color: #b1c2be;
+  color: #b1c2be;
+  cursor: initial;
+  font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #036b52;
+  box-sizing: border-box;
+  color: #f2fffc;
+  font-size: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.btn-register {
+  background-color: #f2fffc;
+  color: #036b52;
+}
+
+.error-box {
+  color: #421981;
+  display: block;
+  font-weight: 900;
+  transition: display 2s;
+}
+
+.hidden {
+  display: none;
+}
+
+.products {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 95%;
+}
+
+.contactCard {
+  align-items: center;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  width: 180px;
+}
+
+.contactHeader {
+  align-items: center;
+  background-color: rgb(129, 196, 142);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navBar {
+  background-color: rgb(7, 97, 48);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rightHeader {
+  align-items: center;
+  background-color: #4e1e94;
+  color: white;
+  display: flex;
+  font-family: Arial , Helvetica , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  height: 50px;
+  justify-content: space-between;
+  padding-left: 15px;
+  width: 35%;
+}
+
+.card-btn {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: inherit;
+}
+
+.profile {
+  width: inherit;
+}
+
+.modal-close {
+  border-radius: 4px;
+  height: 40px;
+  left: -20px;
+  position: absolute;
+  top: -20px;
+  width: 50px;
+  z-index: 3;
+}
+
+.modal-form {
+  align-items: flex-start;
+  background-color: lavender;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+  position: absolute;
+  z-index: 2;
+}
+
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0;
+}
+
+.modal-input {
+  padding: 5px 0;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

@@ -1,0 +1,41 @@
+{
+  "name": "contact-list-app",
+  "version": "0.1.0",
+  "description": "Atividade Ser Educacional Back-end",
+  "main": "./src/api/server.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "engineStrict": true,
+  "private": true,
+  "scripts": {
+    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+  },
+  "dependencies": {
+    "@hapi/boom": "9.1.2",
+    "@types/express": "4.17.11",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-rescue": "1.1.26",
+    "jsonwebtoken": "8.5.1",
+    "md5": "2.3.0",
+    "multer": "1.4.2",
+    "mysql2": "2.1.0",
+    "sequelize": "6.3.4",
+    "socket.io": "3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-trybe-backend": "^1.0.4",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-mocha": "^9.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "nodemon": "2.0.4",
+    "sequelize-cli": "6.2.0"
+  }
+}
